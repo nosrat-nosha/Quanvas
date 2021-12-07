@@ -1,0 +1,212 @@
+html,
+body {
+	overflow-x: hidden;
+	font-family: "Old Standard TT", serif;
+}
+body {
+	position: relative;
+}
+/* navbar  */
+.logo-image {
+	width: 50px;
+	height: 50px;
+}
+.navbar-container {
+	background-color: #001026;
+}
+.nav-text {
+	font-size: 20px;
+}
+.nav-icon {
+	font-size: 25px;
+}
+.signUp-button {
+	color: #001026;
+	background-color: #ffffff;
+	border-radius: 25px;
+}
+/* banner */
+.banner {
+	background-color: #f2f3f4;
+}
+.banner-picture1 {
+	width: 200px;
+	height: 200px;
+	margin-left: 126px;
+}
+.banner-paragraph1 {
+	color: #001026;
+	font-size: 50px;
+	font-weight: bold;
+}
+.banner-paragraph2 {
+	color: #4b688a;
+	font-weight: bold;
+	font-size: 17px;
+}
+.google-play {
+	width: 200px;
+}
+.banner-picture2 {
+	width: 650px;
+}
+/* table  */
+.popular-text {
+	font-size: 40px;
+	margin-left: 74px;
+	font-weight: bold;
+}
+.Table {
+	background-color: #f2f3f4;
+}
+.trade-button {
+	background-color: #307d37;
+	border-radius: 25px;
+	padding: 10px;
+	width: 80px;
+	font-weight: bold;
+	color: white;
+}
+.bitcoin {
+	width: 30px;
+	height: 30px;
+}
+.ethereum {
+	width: 30px;
+	height: 30px;
+}
+/* portfolio */
+.portfolio-title {
+	font-size: 60px;
+	color: #001026;
+}
+.manage i {
+	font-size: 30px;
+}
+.manage span {
+	font-size: 30px;
+	font-weight: bold;
+}
+.manage p {
+	font-size: 30px;
+	font-weight: 400;
+}
+.dashboard {
+	width: 800px;
+	height: 800px;
+}
+/* Crypto Platform  */
+.crypto-title {
+	color: #79797a;
+	font-size: 35px;
+	margin-left: 94px;
+}
+.crypto-body {
+	background-color: #001026;
+}
+.coin-p {
+	font-size: 18px;
+}
+/* Footer  */
+.footer {
+	background-color: #dadbdc;
+}
+.logo-image-footer {
+	width: 40px;
+	height: 40px;
+}
+.footer-title {
+	color: #001026;
+	font-size: 25px;
+}
+.icon {
+	color: #ffffff;
+	border-radius: 15px;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+}
+.google-play-footer {
+	width: 200px;
+}
+.footer-p1 {
+	color: #5d5d64;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.footer-p {
+	color: #79797a;
+	font-weight: 500;
+	font-size: 20px;
+}
+/* media query  */
+@media screen and (max-width: 900px) {
+	.navbar-title {
+		margin-left: -470px;
+	}
+	.bell-icon {
+		margin-left: 50px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	.portfolio-title {
+		font-size: 35px;
+		color: #001026;
+	}
+	.crypto-title {
+		color: #79797a;
+		font-size: 20px;
+		margin-left: 52px;
+	}
+	.dashboard {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.navbar-title {
+		margin-left: -230px;
+	}
+	.bell-icon {
+		margin-left: 50px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 730px) {
+	.navbar-title {
+		margin-left: -100px;
+	}
+	.bell-icon {
+		margin-left: 50px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	.banner-picture2 {
+		width: 450px;
+
+		margin-left: -112px;
+	}
+	.banner-picture1 {
+		width: 200px;
+		height: 200px;
+		margin-left: 23px;
+	}
+	.banner-paragraph1 {
+		color: #001026;
+		font-size: 30px;
+		font-weight: bold;
+	}
+}
+@media screen and (max-width: 600px) {
+	.trade-button {
+		background-color: #307d37;
+		border-radius: 20px;
+		padding: 10px;
+		width: 40px;
+		font-size: 10px;
+		font-weight: bold;
+		color: white;
+	}
+}
